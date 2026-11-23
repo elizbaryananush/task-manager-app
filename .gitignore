@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Compiled output & TypeScript cache
+dist/
+build/
+out/
+out-tsc/
+*.tsbuildinfo
+
+# Frontend build outputs (if applicable)
+.next/
+.nuxt/
+.vite/
+
+# Environment variables (keep example templates)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing & coverage
+coverage/
+.nyc_output/
+
+# Tooling & framework caches
+.npm/
+.eslintcache
+.stylelintcache
+.cache/
+.turbo/
+tmp/
+temp/
+
+# Local SQLite databases (if used in dev)
+*.sqlite
+*.sqlite3
+*.db
+
+# IDEs & editors (VS Code / JetBrains)
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# OS generated files (Windows & macOS)
+Thumbs.db
+Desktop.ini
+.DS_Store
